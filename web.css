@@ -1,0 +1,225 @@
+body{
+    margin: 0; 
+    /* the margin property controls the space outside an element. */
+    padding: 0;
+    /* the padding property controls the space inside an element. */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Task One */
+.one{
+    background-color: rgb(249, 208, 4);
+    color: rgb(17, 16, 16);
+    width: 100%;
+    margin: auto;
+    height: 750px;
+}
+
+.one img{
+    width: 40%;
+    margin-left: 60%;
+    height: 100%;
+}
+
+.one .left{
+    margin-left: 100px;
+    margin-top: -750px;
+}
+.one h1{
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.one h2{
+    font-size: 38px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.one p{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.one #black{
+    background-color: yellow;
+    color: black;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+/* Task Two */
+.two{
+    background-color: rgb(237, 119, 121);
+    color: white;
+    width: 100%;
+    margin: auto;
+    height: 750px;
+}
+
+.two h1{
+    font-size: 52px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    max-width: 40%;
+}
+
+.two p{
+    font-size: 36px;
+    margin-top: -200px;
+    margin-left: 800px;
+    max-width: 30%;
+}
+
+.two img{
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+/* task three */
+.three{
+    background-color: rgb(113, 235, 195);
+    color: black;
+    width:100%;
+    margin: auto;
+    height: 750px;
+}
+.three h1{
+    font-size: 30px;
+    text-align:center;
+}
+.three .image{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.three img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+.three div{
+    text-align: center;
+}
+
+.content{
+    text-align:center;
+}
+
+.content h2{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    padding:0 90px;
+    display:inline-block;
+}
+.content p{
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0 150px;
+    display: inline-block;
+
+}
+
+/* task four */
+.four{
+    background-color: rgb(4, 48, 4);
+    color: rgb(234, 225, 234);
+    width:100%;
+    margin: auto;
+    height:800px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.four img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.four .right{
+
+}
+
+
+.four.right h1{
+    font-size: 72px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-width: 40%;
+
+}
+.four.right li{
+    font-size: 46px;
+    /* margin-bottom: 10px; */
+    list-style-type: none;
+    font-weight: 500;
+ }
+ /* task one */
+ .one{
+    background-color: rgb(249, 208, 4);
+    color: rgb(17, 16, 16);
+    width: 100%;
+    margin: auto;
+    height: 750px;
+}
+
+.one img{
+    width: 40%;
+    margin-left: 60%;
+    height: 100%;
+}
+
+.one .left{
+    margin-left: 100px;
+    margin-top: -750px;
+}
+.one h1{
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.one h2{
+    font-size: 38px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.one p{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.one #black{
+    background-color: yellow;
+    color: black;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.five{
+    width: 100%;
+    height: 100vh;
+    background-color: royalblue;
+    display: flex;
+    gap: 50px;
+}
+.five img{
+    width: 50%;
+    height: 100vh;
+    object-fit: cover;
+
+}
